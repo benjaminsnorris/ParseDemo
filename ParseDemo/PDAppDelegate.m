@@ -7,12 +7,15 @@
 //
 
 #import "PDAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation PDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"NbXnBohtSF6w3oNmxfmbmB5bk73PuMB5AJ1lrdyd" clientKey:@"QQMGdmRXTm4537XAJCRAUgQOHcNOqS0YGxmjTkTG"];
     return YES;
 }
 							
